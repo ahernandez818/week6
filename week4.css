@@ -1,0 +1,134 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+header{
+  background: rgb(255, 246, 208);
+  text-align: center;
+  color: black;
+  font-family: 'Noto Serf Hong Kong';
+}
+p{
+  font-size: 1.15em;
+  text-emphasis: center;
+}
+nav{
+  background-color: rgb(251, 240, 167);
+}
+ul{
+  text-align: center;
+}
+ul{
+  text-align: center;
+}
+li{
+  display: inline-block;
+  width: 150px;
+  border: 2px solid white;
+  line-height: 3em;
+  font-family: 'Gloock';
+  font-variant: small-caps;
+  font-weight: 500;
+}
+a{
+  color: black;
+  text-decoration: none;
+  border: 1px solid white;
+  display: block;
+}
+.hero img{
+  width: 100%
+}
+
+div.container{
+  border: 5px solid #ffde71; 
+  width: 80%;
+  margin: 0 auto;
+}
+.bottom img{
+  width: 100%;
+}
+div.bottom{
+  border: 5px dotted #fcb424; 
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+#container{
+  width: 900px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 0;
+  height: 100%;
+}
+.section{
+  width: 400px;
+  float: inline-start;
+  background-repeat: no-repeat;
+  position:relative;
+  justify-content: space-between;
+}
+.section.one{
+  background-color: #ffe4ad;
+  background-image: url("../images/pic1.jpg");
+  height: 600px;
+  background-size: cover;
+  outline: 2px solid black;
+}
+.section.two{
+  background-color: #ffe4af;
+  background-image: url("../images/pic2.jpg");
+  height: 600px;
+  background-size: cover;
+  outline: 2px solid black;
+}
+div.section.one, div.section.two{
+  border: 3px dotted rgb(255, 203, 99);
+  width: 50%;
+}
+.left img{
+  height: 100%;
+  width: 100%;
+}
+.right img{
+  height: 100%;
+  width: 100%;
+}
+.overlay{
+  background-color: rgb(255, 255, 255,.5);
+  position: absolute;
+  top: 500px;
+  width: 100%;
+  height: 60px;
+  overflow: hidden;
+  -webkit-transition: all 1s ease-in-out .2s;
+  -moz-transition: all 1s ease-in-out .2s;
+  -ms-transition: all 1s ease-in-out .2s;
+  -o-transition: all 1s ease-in-out .2s;
+  transition: all 1s ease-in-out .2s;
+}
+.overlay:hover{
+  height: 600px;
+  width: 100%;
+  top: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
